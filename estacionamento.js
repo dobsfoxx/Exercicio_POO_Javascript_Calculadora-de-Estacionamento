@@ -47,6 +47,8 @@ class Park {
 
         const troco = (valor - this.final).toFixed(2);
         document.getElementById("resultadoTroco").innerHTML = "Pago com Sucesso! Troco: R$ " + troco;
+        document.getElementById("valor").value = "";
+        document.getElementById("minutos").value = "";
     }
 }
 
